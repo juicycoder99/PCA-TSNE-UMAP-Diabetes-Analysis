@@ -1,8 +1,8 @@
 # Comparing PCA, t-SNE and UMAP for Regression on the Diabetes Dataset
 
-**Jibril Hussaini**
-hussainijibril0@gmail.com
-Department of Computer Science, Bishop's University
+## Author
+
+Jibril Hussaini
 
 ## Abstract
 

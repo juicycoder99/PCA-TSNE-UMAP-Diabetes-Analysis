@@ -1,14 +1,10 @@
-# CS503 — Data Visualization — Project
-
-Course project for **Data Visualization (CS503)**, Department of Computer Science, Bishop's University.
-
-## Comparing PCA, t-SNE and UMAP for regression on the diabetes dataset
+# Comparing PCA, t-SNE and UMAP for Regression on the Diabetes Dataset
 
 A comparative study of three dimensionality-reduction techniques (PCA, t-SNE, UMAP) and their
 impact on linear regression, using the **diabetes** dataset (442 patients, 10 baseline inputs, and a
 continuous disease-progression target `Y`).
 
-- Code: [`Project.ipynb`](Project.ipynb) — one code cell per task, with a heading before each.
+- Code: [`diabetes_dimensionality_reduction.ipynb`](diabetes_dimensionality_reduction.ipynb) — one code cell per task, with a heading before each.
 - Write-up: [`report.md`](report.md) — abstract, background, experiments, and discussion.
 
 ## What the notebook covers
@@ -36,14 +32,14 @@ continuous disease-progression target `Y`).
 
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn umap-learn
-jupyter notebook Project.ipynb
+jupyter notebook diabetes_dimensionality_reduction.ipynb
 ```
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `Project.ipynb` | Full solution (Tasks 1–11) |
+| `diabetes_dimensionality_reduction.ipynb` | Full implementation and analysis (Tasks 1–11) |
 | `report.md` | Written report |
-| `Project_W24.pdf` | Assignment description |
+| `PROJECT_BRIEF.pdf` | Project brief (goals, objectives, outcomes) |
 | `diabetes2.csv` | Diabetes dataset |
